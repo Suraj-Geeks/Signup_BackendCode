@@ -4,8 +4,6 @@ const router = require('./router/routers')
 require("dotenv").config();
 const connectToDB = require('./Database/connectToDB')
 
-
-
 app.use(express.json());//middleware
 
 app.use('/', router);//middleware
