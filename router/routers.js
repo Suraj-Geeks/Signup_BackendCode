@@ -15,5 +15,5 @@ router.post('/signup',async(req,res)=>{
         data: {name,email,password,gender }
     })
     })
-    
+   
     module.exports = router;
